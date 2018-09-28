@@ -1,5 +1,14 @@
 <template>
-  <div>
-    <h1>Hello There Kristophe!</h1>
+  <div class="full-width center-content">
+    <hello-component name="User" machine="Terminator" />
   </div>
 </template>
+<script>
+import HelloComponent from './components/HelloComponent.vue'
+export default {
+  components: {
+    HelloComponent
+  }
+}
+</script>
+
