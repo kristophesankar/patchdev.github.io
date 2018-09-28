@@ -6,7 +6,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const path = require('path')
 
-function resolve (dir) {
+function resolve(dir) {
   return path.join(__dirname, '..', dir)
 }
 
@@ -25,12 +25,18 @@ module.exports = {
     rules: [
       {
         test: /\.vue$/,
-        use: 'vue-loader'
+        loader: 'vue-loader',
+        options: {
+          loaders: {
+            'scss': 'vue-style-loader!css-loader!sass-loader',
+            'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
+          }
+        }
       },
       {
         test: /\.js$/,
         use: 'babel-loader',
-        exclude: /node_modules/ 
+        exclude: /node_modules/
       },
       {
         test: /\.css$/,
@@ -46,7 +52,11 @@ module.exports = {
           'css-loader',
           'stylus-loader'
         ]
-      }
+      },
+      {
+        test: /\.scss$/,
+        use: ['vue-style-loader', 'css-loader', 'sass-loader']
+      },
     ]
   },
   plugins: [

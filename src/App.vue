@@ -1,8 +1,10 @@
 <template>
   <div class="full-width center-content">
-    <hello-component name="User" machine="Terminator" />
+    <hello-component name="User" />
+    
   </div>
 </template>
+
 <script>
 import HelloComponent from './components/HelloComponent.vue'
 export default {
@@ -11,4 +13,5 @@ export default {
   }
 }
 </script>
+
 

@@ -1,18 +1,14 @@
 <template>
   <div>
       <h1>Hello {{ name }}!</h1>
-      <h1>Hello {{ machine }}!</h1>
+       <button type="button" class="btn btn-primary">Save changes</button>
+      
     </div>
 </template>
 <script>
 export default {
   props: {
     name: {
-      type: String,
-      required: true
-    },
-
-    machine:{
       type: String,
       required: true
     }
