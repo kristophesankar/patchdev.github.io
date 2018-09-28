@@ -1,15 +1,18 @@
 <template>
   <div class="full-width center-content">
-    <hello-component name="User" />
+    <left-nav-component username="User Name" />
+    <main-component pagetitle="Main Content" />
     
   </div>
 </template>
 
 <script>
-import HelloComponent from './components/HelloComponent.vue'
+import LeftNavComponent from './components/LeftNavComponent.vue'
+import MainComponent from './components/MainComponent.vue'
 export default {
   components: {
-    HelloComponent
+    LeftNavComponent,
+    MainComponent
   }
 }
 </script>
