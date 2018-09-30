@@ -1,7 +1,8 @@
 <template>
   <div class="full-width center-content">
+    
     <left-nav-component username="User Name" />
-    <main-component pagetitle="Main Content" />
+    <main-component pagetitle="Home" />
     
   </div>
 </template>

@@ -2,23 +2,22 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-
 .sidenav {
     height: 100%;
-    width: 260px;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding: 10px;
 }
 
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #818181;
     display: block;
 }
@@ -28,9 +27,29 @@ body{
 }
 
 .main {
-    margin-left: 260px; /* Same as the width of the sidenav */
+    margin-left: 200px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
+}
+
+.lead-consultant{
+   border-bottom: solid 1px white;
+}
+
+.lead-consultant > a{
+    font-size:14px!important;
+}
+
+.main-headings{
+    background-color: #339af0;
+    color:white;
+    padding-left:20px;
+    margin:0px;
+}
+
+h2{
+
+    font-weight: 900;
 }
 
 @media screen and (max-height: 450px) {
