@@ -45,6 +45,10 @@ module.exports = {
           'css-loader'
         ]
       },
+      { 
+        test: /\.jpg$/, 
+        loader: "file-loader" 
+      },
       {
         test: /\.styl(us)?$/,
         use: [

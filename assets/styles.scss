@@ -1,5 +1,20 @@
 body{
     font-family: 'Quicksand', sans-serif;
+    overflow-x:hidden;
+}
+
+.top-section{
+
+    background-image: url("../static/img/computers2.jpg");
+    padding:0px;
+    color:white;
+    height: 95vh;
+    background-size: cover;
+    text-shadow: 2px 2px #000000;
+}
+
+.p6{
+    padding:100px;
 }
 
 .sidenav {
@@ -27,9 +42,10 @@ body{
 }
 
 .main {
+    width: 100%;
     margin-left: 200px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    padding: 0px;
 }
 
 .lead-consultant{
@@ -41,7 +57,7 @@ body{
 }
 
 .main-headings{
-    background-color: #339af0;
+    background-color: #111111;
     color:white;
     padding-left:20px;
     margin:0px;
