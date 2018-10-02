@@ -1,7 +1,13 @@
 <template>
 <div class="main">
   <div class="row">
-    <div class="main-headings col-md-12"><h4 class="p-2">{{ pagetitle }}</h4></div>
+    <div class="main-headings col-md-12">
+      <a href="javascript:void(0)" >
+        <font-awesome-icon icon="bars" class="pull-right"  />
+      </a>
+        
+    </div>
+
   </div>
   <section id="top" class="top-section">
 		<div class="row align-items-center h-50">
@@ -39,7 +45,7 @@ export default {
   props: {
     pagetitle: {
       type: String,
-      required: true
+      required: false
     }
   }
 };

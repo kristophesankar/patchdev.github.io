@@ -11,6 +11,7 @@
 import LeftNavComponent from './components/LeftNavComponent.vue'
 import MainComponent from './components/MainComponent.vue'
 export default {
+  
   components: {
     LeftNavComponent,
     MainComponent
