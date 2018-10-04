@@ -26,7 +26,8 @@ body{
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding: 10px;
+    
+    transition: 0.5s; 
 }
 
 .typed-element{
@@ -39,6 +40,7 @@ body{
     font-size: 20px;
     color: #818181;
     display: block;
+    transition: 0.3s;
 }
 
 .sidenav a:hover {
@@ -50,6 +52,7 @@ body{
     margin-left: 200px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px;
+    transition: margin-left .5s;
 }
 
 .lead-consultant{
@@ -73,7 +76,17 @@ h2{
     font-weight: 900;
 }
 
+.custom-nav-drawer{
+    padding: 0px 10px 0px 10px;
+    position: fixed;
+background:white;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 450px) {
+    .p6{padding:0px;}
 }
