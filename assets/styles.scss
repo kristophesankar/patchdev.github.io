@@ -8,7 +8,7 @@ body{
     background-image: url("../static/img/computers2.jpg");
     padding:0px;
     color:white;
-    height: 95vh;
+    height: 100vh;
     background-size: cover;
     text-shadow: 2px 2px #000000;
 }
@@ -54,7 +54,7 @@ body{
 .main {
     width: 100%;
     margin-left: 200px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
+    font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px;
     transition: margin-left .5s;
 }
@@ -84,6 +84,11 @@ h2{
     padding: 0px 10px 0px 10px;
     position: fixed;
     background:white;
+    border-radius:3px;
+}
+
+.ksankar{
+    border-radius: 100px;
 }
 
 @media screen and (max-height: 450px) {
