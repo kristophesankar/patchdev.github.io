@@ -11,22 +11,10 @@ import '../assets/styles.scss'
 
 library.add(fas)
 
+
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 new Vue({
   el: '#app',
-  render: h => h(App),
-  methods:{
-    openNav : function () {
-      document.getElementById("sidenav").style.width = "250px";
-      document.getElementById("main").style.marginLeft = "250px";
-    },
-
-    closeNav: function () {
-        console.log(1);
-        document.getElementById("sidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft= "0";
-    }
-
-  }
+  render: h => h(App)
 })

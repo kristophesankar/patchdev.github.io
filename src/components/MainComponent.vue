@@ -2,7 +2,7 @@
 <div id="main" class="main">
   <div class="row ">
     <div class="main-headings col-md-12">
-      <a href="javascript:void(0)" class="custom-nav-drawer " v-on:click="toggleNav">
+      <a href="javascript:void(0)" class="custom-nav-drawer " id="custom-nav-drawer" v-on:click="toggleNav">
         <font-awesome-icon icon="bars"   />
       </a>
     </div>
@@ -17,7 +17,7 @@
             </h1>
           </vue-typed-js>
           <p>Learn how I can help you</p>
-          <button class="btn btn-primary">Services</button>
+          <button class="btn btn-primary">Portfolio</button>
         </div>
       </div>
 		</div>
@@ -28,60 +28,81 @@
         <h1><strong>About</strong></h1>
           
         <div class="h-100 border-primary justify-content-center "> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas eros et mauris maximus, a ullamcorper ante porttitor. Ut purus nisl, semper et urna sed, vestibulum vehicula enim.</p>
+            <p>I'm, Kristophe, a Full Stack Developer from the Caribbean who loves being creative with a computer. Since starting my journey as a software developer I've touched on many different industries 
+              including most<br> notably healthcare, e-commerce, and education.</p>
 
         </div>
-        <div class="row p-4">
+        <div class="row p-4 justify-content-center">
           <div class="4"><img src="../../static/img/ksankar.jpg" alt="Kristophe Sankar" class="ksankar"> </div>
-          <div class="8"></div>
+          
         </div>
       </div>
 		</div>
 	</section>
-  <div class="row">
-    <div class="col-md-12">
+  <hr>
+  <section id="top" class="skillset-section">
+		<div class="row align-items-center typed-row p-2">
+      <div class="col-md-12 text-center mx-auto">
+        <h1><strong>My Skills</strong></h1>
+          <div class="h-100 border-primary justify-content-center "> 
+            <p>I enjoy learning new methodologies and technologies both on the job and in my free time.</p>
 
-  
-    </div>
-  </div>
+        </div>
+
+        <div class="row mt-3 justify-content-center">
+
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-header">
+                Architect
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Methodologies <br>
+                  Interested In</h5>
+                <p class="card-text badge badge-info">Pattern Oriented</p>
+                <p class="card-text badge badge-info">Data Driven</p>
+                <p class="card-text badge badge-info">Test Driven</p>
+                <p class="card-text badge badge-info">Behaviour Driven Design</p>
+
+           
+              </div>
+              <div class="card-footer text-muted">
+                <a href="https://github.com/kristophesankar" class="btn btn-primary">Books I'm Reading</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-header">
+                Developer
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Languages <br> I Enjoy Using </h5>
+                <p class="card-text badge badge-info">Javascript</p>
+                <p class="card-text badge badge-info">HTML</p>
+                <p class="card-text badge badge-info">CSS</p>
+                <p class="card-text badge badge-info">React</p>
+                <p class="card-text badge badge-info">PHP</p>
+                <p class="card-text badge badge-info">Java</p>
+                <p class="card-text badge badge-info">C#</p>
+                <p class="card-text badge badge-info">SQL</p>
+           
+              </div>
+              <div class="card-footer text-muted">
+                <a href="https://github.com/kristophesankar" class="btn btn-primary">View my Github</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+		</div>
+	</section>
   
 </div>
 </template>
 
-<script>
-import Vue from "vue";
-import { VueTypedJs } from "vue-typed-js";
-
-export default {
-  components: {
-    VueTypedJs
-  },
-  methods: {
-    toggleNav: function() {
-      let element = document.getElementById("sidenav");
-      //if class is closed
-      if (element.classList.contains("nav-closed")) {
-        document.getElementById("sidenav").style.width = "200px";
-        document.getElementById("main").style.marginLeft = "200px";
-        element.classList.add("nav-open");
-        if (element.classList.contains("nav-closed")) {
-          element.classList.remove("nav-closed");
-        }
-      } else {
-        document.getElementById("sidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-        element.classList.add("nav-closed");
-        if (element.classList.contains("nav-open")) {
-          element.classList.remove("nav-open");
-        }
-      }
-    }
-  },
-  props: {
-    pagetitle: {
-      type: String,
-      required: false
-    }
-  }
-};
-</script>
+<script src="../js/MainComponent.js" ></script>

@@ -85,11 +85,26 @@ h2{
     position: fixed;
     background:white;
     border-radius:3px;
+    border:solid 1px #ccc;
 }
 
 .ksankar{
     border-radius: 100px;
 }
+
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+
+.about-section{
+
+    height:100vh;
+}
+
+.skillset-section{
+    height:100vh;
+    background: #eee;
+}
+
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
