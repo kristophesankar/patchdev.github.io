@@ -8,7 +8,7 @@ body{
     background-image: url("../static/img/computers2.jpg");
     padding:0px;
     color:white;
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     text-shadow: 2px 2px #000000;
 }
@@ -97,14 +97,23 @@ h2{
 
 .about-section{
 
-    height:100vh;
+    min-height:100vh;
 }
 
 .skillset-section{
-    height:100vh;
+    min-height:100vh;
     background: #eee;
 }
 
+.about-author-footer{
+
+    font-size: 14px;
+}
+
+.card-header{
+    background: #007bff;
+    color: #fff;
+}
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}

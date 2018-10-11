@@ -29,17 +29,17 @@
           
         <div class="h-100 border-primary justify-content-center "> 
             <p>I'm, Kristophe, a Full Stack Developer from the Caribbean who loves being creative with a computer. Since starting my journey as a software developer I've touched on many different industries 
-              including most<br> notably healthcare, e-commerce, and education.</p>
+              including, most notably,<br>  healthcare, e-commerce, and education.</p>
 
         </div>
         <div class="row p-4 justify-content-center">
-          <div class="4"><img src="../../static/img/ksankar.jpg" alt="Kristophe Sankar" class="ksankar"> </div>
-          
+          <div class="col-md-4"><img src="../../static/img/ksankar.jpg" alt="Kristophe Sankar" class="ksankar"><br><p class="mt-1 font-weight-light font-italic about-author-footer">&nbsp;Kristophe Sankar <br> Full Stack Developer </p></div>
+         
         </div>
       </div>
 		</div>
 	</section>
-  <hr>
+
   <section id="top" class="skillset-section">
 		<div class="row align-items-center typed-row p-2">
       <div class="col-md-12 text-center mx-auto">
@@ -57,7 +57,7 @@
                 Architect
               </div>
               <div class="card-body">
-                <h5 class="card-title">Methodologies <br>
+                <h5 class="card-title"> 
                   Interested In</h5>
                 <p class="card-text badge badge-info">Pattern Oriented</p>
                 <p class="card-text badge badge-info">Data Driven</p>
@@ -67,7 +67,7 @@
            
               </div>
               <div class="card-footer text-muted">
-                <a href="https://github.com/kristophesankar" class="btn btn-primary">Books I'm Reading</a>
+                <a href="https://github.com/kristophesankar" class="btn btn-primary">Books I Like</a>
               </div>
             </div>
 
@@ -78,7 +78,7 @@
                 Developer
               </div>
               <div class="card-body">
-                <h5 class="card-title">Languages <br> I Enjoy Using </h5>
+                <h5 class="card-title">My Proficiencies </h5>
                 <p class="card-text badge badge-info">Javascript</p>
                 <p class="card-text badge badge-info">HTML</p>
                 <p class="card-text badge badge-info">CSS</p>
@@ -91,6 +91,25 @@
               </div>
               <div class="card-footer text-muted">
                 <a href="https://github.com/kristophesankar" class="btn btn-primary">View my Github</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-header">
+                Creative
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">I Enjoy </h5>
+                <p class="card-text badge badge-info">Music Production</p>
+                <p class="card-text badge badge-info">Playing Instruments</p>
+                <p class="card-text badge badge-info">Ableton Live</p>
+                <p class="card-text badge badge-info">Adobe Illustrator</p>
+           
+              </div>
+              <div class="card-footer text-muted">
+                <a href="https://github.com/kristophesankar" class="btn btn-primary">My Audiojungle</a>
               </div>
             </div>
 
