@@ -43,7 +43,7 @@
   <section id="top" class="skillset-section">
 		<div class="row align-items-center typed-row p-2">
       <div class="col-md-12 text-center mx-auto">
-        <h1><strong>My Skills</strong></h1>
+        <h1><strong>Skills</strong></h1>
           <div class="h-100 border-primary justify-content-center "> 
             <p>I enjoy learning new methodologies and technologies both on the job and in my free time.</p>
 
@@ -67,7 +67,7 @@
            
               </div>
               <div class="card-footer text-muted">
-                <a href="https://github.com/kristophesankar" class="btn btn-primary">Books I Like</a>
+                <a href="" class="btn btn-primary">Books I Like <font-awesome-icon icon="book" /></a>
               </div>
             </div>
 
@@ -90,7 +90,7 @@
            
               </div>
               <div class="card-footer text-muted">
-                <a href="https://github.com/kristophesankar" class="btn btn-primary">View my Github</a>
+                <a href="https://github.com/kristophesankar" target="_blank" class="btn btn-primary">View my Github <font-awesome-icon :icon="['fab', 'github']" /></a>
               </div>
             </div>
 
@@ -101,7 +101,7 @@
                 Creative
               </div>
               <div class="card-body">
-                <h5 class="card-title">I Enjoy </h5>
+                <h5 class="card-title">I Enjoy Learning</h5>
                 <p class="card-text badge badge-info">Music Production</p>
                 <p class="card-text badge badge-info">Playing Instruments</p>
                 <p class="card-text badge badge-info">Ableton Live</p>
@@ -109,7 +109,7 @@
            
               </div>
               <div class="card-footer text-muted">
-                <a href="https://github.com/kristophesankar" class="btn btn-primary">My Audiojungle</a>
+                <a href="https://audiojungle.net/user/logicreactor/portfolio" target="_blank" class="btn btn-primary">My Audiojungle <font-awesome-icon icon="music" /></a>
               </div>
             </div>
 
@@ -117,6 +117,37 @@
 
         </div>
 
+      </div>
+		</div>
+	</section>
+  <section id="top" class="portfolio-section">
+		<div class="row align-items-center typed-row p-2">
+      <div class="col-md-12 text-center mx-auto">
+        <h1><strong>Portfolio</strong></h1>
+          
+        <div class="h-100 border-primary justify-content-center "> 
+            <p>Check out my porfolio and online profiles.</p>
+
+        </div>
+        <div class="row p-4 justify-content-center ">
+          <div class="col-md-4 hov-container m-1">
+            <img src="../../static/img/ctc.jpg" alt="Kristophe Sankar" class="porfolio-images"><br><p class="mt-1 font-weight-light  ">&nbsp;CoffeeTableCoven.com <br> Website & Custom CMS <br> </p>
+            <div class="overlay">
+              <div class="text-overlay"><a href="http://coffeetablecoven.com" target="_blank">Visit Website <font-awesome-icon icon="globe-americas" /></a> </div>
+            </div>
+            </div>
+          <div class="col-md-4 hov-container m-1">
+            <img src="../../static/img/imist.jpg" alt="Kristophe Sankar" class="porfolio-images"><br><p class="mt-1 font-weight-light  ">&nbsp;IMIST.org <br> Website & OpenEMR Configuration <br>  </p>
+            <div class="overlay">
+              <div class="text-overlay"><a href="https://imist.org" target="_blank">Visit Website 
+              <font-awesome-icon icon="globe-americas" /></a> <br>
+                <a href="../../static/img/imist-flyer.jpg" target="_blank">View Flyer Design </a>
+               </div>
+            </div>
+          </div>
+          <div class="col-md-12 mt-5"> <a class="btn btn-primary" href="https://www.linkedin.com/in/arjuna-kristophe-sankar-67a736109/" target="_blank">View My Linked<font-awesome-icon :icon="['fab', 'linkedin']" /></a> </div>
+         
+        </div>
       </div>
 		</div>
 	</section>
