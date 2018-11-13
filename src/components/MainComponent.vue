@@ -22,7 +22,7 @@
       </div>
 		</div>
 	</section>
-  <section id="top" class="about-section">
+  <section id="about" class="about-section">
 		<div class="row align-items-center typed-row p-2">
       <div class="col-md-12 text-center mx-auto">
         <h1><strong>About</strong></h1>
@@ -40,7 +40,7 @@
 		</div>
 	</section>
 
-  <section id="top" class="skillset-section">
+  <section id="skills" class="skillset-section">
 		<div class="row align-items-center typed-row p-2">
       <div class="col-md-12 text-center mx-auto">
         <h1><strong>Skills</strong></h1>
@@ -120,7 +120,7 @@
       </div>
 		</div>
 	</section>
-  <section  class="portfolio-section mb-5">
+  <section id="portfolio" class="portfolio-section mb-5">
 		<div class="row align-items-center typed-row p-2">
       <div class="col-md-12 text-center mx-auto">
         <h1><strong>Portfolio</strong></h1>
@@ -151,7 +151,7 @@
       </div>
 		</div>
 	</section>
-  <section  class="contact-section">
+  <section id="contact" class="contact-section">
 		<div class="row align-items-center typed-row ">
       <div class="col-md-12 text-center mx-auto">
         <h1><strong>Contact</strong></h1>
@@ -160,7 +160,7 @@
           </div>
           <div class="row justify-content-center" >
 
-          <div class="col-md-4"><a href="mailto:kristophe@patchdev.com"><font-awesome-icon icon="envelope" size="6x" style="color: #007bff;" /> <br>kristophe@patchdev.com</a></div>
+          <div class="col-md-4"><a style="text-decoration:none" href="mailto:kristophe@patchdev.com"><font-awesome-icon icon="envelope" size="6x" style="color: #007bff;" /> <br>kristophe@patchdev.com</a></div>
           
           
           </div>
@@ -169,7 +169,7 @@
       </div>
 		</div>
 	</section>
-  <section style="background: #111; color: #818181;">
+  <section class="footer-section">
     <div class="row justify-content-center" >
       <div class="col-md-12 text-center p-4">
         © 2018 PatchDev <br>
