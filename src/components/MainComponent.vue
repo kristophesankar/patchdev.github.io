@@ -28,8 +28,8 @@
         <h1><strong>About</strong></h1>
           
         <div class="h-100 border-primary justify-content-center "> 
-            <p>I'm, Kristophe, a Full Stack Developer from the Caribbean who loves being creative with a computer. Since starting my journey as a software developer I've touched on many different industries 
-              including, most notably,<br>  healthcare, e-commerce, and education.</p>
+            <p>I'm, Kristophe, a Full Stack Developer from the Caribbean who loves being creative with a computer. Since starting my journey as a software developer I've worked in many different industries
+            including<br>  healthcare, e-commerce, and education.</p>
 
         </div>
         <div class="row p-4 justify-content-center">
@@ -120,7 +120,7 @@
       </div>
 		</div>
 	</section>
-  <section id="top" class="portfolio-section">
+  <section  class="portfolio-section mb-5">
 		<div class="row align-items-center typed-row p-2">
       <div class="col-md-12 text-center mx-auto">
         <h1><strong>Portfolio</strong></h1>
@@ -145,12 +145,38 @@
                </div>
             </div>
           </div>
-          <div class="col-md-12 mt-5"> <a class="btn btn-primary" href="https://www.linkedin.com/in/arjuna-kristophe-sankar-67a736109/" target="_blank">View My Linked<font-awesome-icon :icon="['fab', 'linkedin']" /></a> </div>
+          <div class="col-md-12 mt-4"> <a class="btn btn-primary" href="https://www.linkedin.com/in/arjuna-kristophe-sankar-67a736109/" target="_blank">View My Linked<font-awesome-icon :icon="['fab', 'linkedin']" /></a> </div>
          
         </div>
       </div>
 		</div>
 	</section>
+  <section  class="contact-section">
+		<div class="row align-items-center typed-row ">
+      <div class="col-md-12 text-center mx-auto">
+        <h1><strong>Contact</strong></h1>
+          <div class="h-100 border-primary justify-content-center mb-4"> 
+            <p>Get in touch with me via email at:</p>
+          </div>
+          <div class="row justify-content-center" >
+
+          <div class="col-md-4"><a href="mailto:kristophe@patchdev.com"><font-awesome-icon icon="envelope" size="6x" style="color: #007bff;" /> <br>kristophe@patchdev.com</a></div>
+          
+          
+          </div>
+         
+
+      </div>
+		</div>
+	</section>
+  <section style="background: #111; color: #818181;">
+    <div class="row justify-content-center" >
+      <div class="col-md-12 text-center p-4">
+        © 2018 PatchDev <br>
+        Terms of Use | Privacy Policy
+      </div>
+    </div>
+  </section>
   
 </div>
 </template>
