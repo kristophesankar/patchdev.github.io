@@ -16,7 +16,7 @@
               <strong><span class="typing"></span><br/>Software Development<br/></strong> 
             </h1>
           </vue-typed-js>
-          <p>Learn how I can help you</p>
+          <p>Learn more about me</p>
           <button class="btn btn-primary">Portfolio</button>
         </div>
       </div>
