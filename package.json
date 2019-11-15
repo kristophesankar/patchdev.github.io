@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-dev-server --config build/webpack.config.dev.js"
+    "dev": "webpack-dev-server --config build/webpack.config.dev.js",
+    "build": "webpack --config build/webpack.config.dev.js"
   },
   "author": "Arjuna Kristophe Sankar",
   "license": "ISC",
